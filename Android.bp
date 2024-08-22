@@ -1,7 +1,7 @@
 android_app_import {
 	name: "DuckDuckGo",
 	apk: "DuckDuckGo/DuckDuckGo.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -13,7 +13,7 @@ android_app_import {
 android_app_import {
         name: "SimpleCalendar",
         apk: "SimpleCalendar/SimpleCalendar.apk",
-        presigned: true,
+        certificate: "platform",
         dex_preopt: {
                 enabled: false,
         },
@@ -25,7 +25,7 @@ android_app_import {
 android_app_import {
         name: "SimpleGallery",
         apk: "SimpleGallery/SimpleGallery.apk",
-        presigned: true,
+        certificate: "platform",
         dex_preopt: {
                 enabled: false,
         },
@@ -37,7 +37,7 @@ android_app_import {
 android_app_import {
         name: "WeatherIcons",
         apk: "WeatherIcons/WeatherIcons.apk",
-        presigned: true,
+        certificate: "platform",
         dex_preopt: {
                 enabled: false,
         },
@@ -48,7 +48,7 @@ android_app_import {
 android_app_import {
         name: "stats",
         apk: "stats/stats.apk",
-        presigned: true,
+        certificate: "platform",
         dex_preopt: {
                 enabled: false,
         },
